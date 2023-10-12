@@ -10,9 +10,12 @@
         "productType": "Normal",
         "productGroup": "SAV",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
         "productTypeCode": "SAV",
         "productClassCode": "DP",
         "productShortName": "KSA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
         "productDescription": "Kids Savings Account",
         "productTypeDescription": "Savings",
         "productClassDescription": "Deposit",
@@ -22,11 +25,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Frontbook"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2020-12-01T00:00:00.000Z",
+          "rateEffectiveDate": "2023-10-12T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -34,12 +38,12 @@
             {
               "term": null,
               "margin": null,
-              "interest": 0.2996,
+              "interest": 2.4718,
               "maximumBalance": null,
               "minimumBalance": 1,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.3
+              "annualizedPercentageYield": 2.5
             }
           ]
         }
@@ -55,9 +59,12 @@
         "productType": "Normal",
         "productGroup": "CD",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
         "productTypeCode": "CD",
         "productClassCode": "DP",
         "productShortName": "CD",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
         "productDescription": "CD",
         "productTypeDescription": "Certificate of Deposit",
         "productClassDescription": "Deposit",
@@ -67,11 +74,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Frontbook"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2023-09-07T00:00:00.000Z",
+          "rateEffectiveDate": "2023-09-07T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -180,9 +188,12 @@
         "productType": "Normal",
         "productGroup": "SAV",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
         "productTypeCode": "SAV",
         "productClassCode": "DP",
         "productShortName": "PSA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
         "productDescription": "360 Performance Savings",
         "productTypeDescription": "Savings",
         "productClassDescription": "Deposit",
@@ -192,11 +203,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Frontbook"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2023-07-21T00:00:00.000Z",
+          "rateEffectiveDate": "2023-07-21T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -275,9 +287,12 @@
         "productType": "Normal",
         "productGroup": "SAV",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "2023-03-22",
         "productTypeCode": "SAV",
         "productClassCode": "DP",
         "productShortName": "PrS",
+        "backbookStartDate": null,
+        "frontbookStartDate": null,
         "productDescription": "Preferred Savings",
         "productTypeDescription": "Savings",
         "productClassDescription": "Deposit",
@@ -287,11 +302,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Pilot"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2023-06-23T00:00:00.000Z",
+          "rateEffectiveDate": "2023-06-23T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -370,9 +386,12 @@
         "productType": "Normal",
         "productGroup": "DDA",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
         "productTypeCode": "DDA",
         "productClassCode": "DP",
         "productShortName": "DDA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
         "productDescription": "360 Checking",
         "productTypeDescription": "Checking",
         "productClassDescription": "Deposit",
@@ -382,11 +401,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Frontbook"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T00:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -455,9 +475,12 @@
         "productType": "Normal",
         "productGroup": "DDA",
         "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
         "productTypeCode": "DDA",
         "productClassCode": "DP",
         "productShortName": "MDA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
         "productDescription": "MONEY",
         "productTypeDescription": "Checking",
         "productClassDescription": "Deposit",
@@ -467,11 +490,12 @@
           "dailyPercentageRate": 5,
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
-        }
+        },
+        "productStatus": "Frontbook"
       },
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T00:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
