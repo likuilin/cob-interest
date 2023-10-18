@@ -114,7 +114,7 @@
               "annualizedPercentageRate": 0,
               "annualizedPercentageYield": 5.3,
               "isPromo": true,
-              "promoEndDate": "2024-10-18T04:00:00.000Z"
+              "promoEndDate": null
             },
             {
               "term": 12,
