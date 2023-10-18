@@ -79,7 +79,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2023-10-13T04:00:00.000Z",
+          "rateEffectiveDate": "2023-10-18T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -105,6 +105,18 @@
               "annualizedPercentageYield": 4.3
             },
             {
+              "term": 10,
+              "margin": null,
+              "interest": 5.1755,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 5.3,
+              "isPromo": true,
+              "promoEndDate": "2024-10-18T04:00:00.000Z"
+            },
+            {
               "term": 12,
               "margin": null,
               "interest": 4.8889,
@@ -117,12 +129,12 @@
             {
               "term": 18,
               "margin": null,
-              "interest": 5.1278,
+              "interest": 4.8889,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 5.25
+              "annualizedPercentageYield": 5
             },
             {
               "term": 24,
