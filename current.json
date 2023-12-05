@@ -391,6 +391,103 @@
     {
       "productDefinition": {
         "endDate": "",
+        "beginDate": "2023-12-01",
+        "apyTierType": "simple",
+        "productCode": "3830",
+        "productName": "Select Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": null,
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "TS1",
+        "backbookStartDate": null,
+        "frontbookStartDate": null,
+        "productDescription": "Select Savings Product",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Planned"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-12-01T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "Individual",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": 4.3,
+            "toApyRate": 2,
+            "maxBalance": 5000000
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 4.2175,
+              "maximumBalance": 175,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.3
+            },
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 1.9819,
+              "maximumBalance": null,
+              "minimumBalance": 175.01,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 2
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2023-12-01T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "Joint",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": 4.3,
+            "toApyRate": 2,
+            "maxBalance": 5000000
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 4.2175,
+              "maximumBalance": 175,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.3
+            },
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 1.9819,
+              "maximumBalance": null,
+              "minimumBalance": 175.01,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
         "beginDate": "1841-01-01",
         "apyTierType": "tiered",
         "productCode": "4000",
