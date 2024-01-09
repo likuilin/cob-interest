@@ -105,18 +105,6 @@
               "annualizedPercentageYield": 4.35
             },
             {
-              "term": 10,
-              "margin": null,
-              "interest": 4.2656,
-              "maximumBalance": null,
-              "minimumBalance": 0,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.35,
-              "isPromo": false,
-              "promoEndDate": "2023-11-22T05:00:00.000Z"
-            },
-            {
               "term": 12,
               "margin": null,
               "interest": 5.1278,
