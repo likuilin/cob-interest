@@ -1,4 +1,615 @@
 {
-  "description": "Gateway Timeout. Timeout while reading the response from the backend server",
-  "code": 101999
+  "products": [
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "1998-01-01",
+        "apyTierType": "simple",
+        "productCode": "3010",
+        "productName": "Kids Savings Account",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "KSA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "Kids Savings Account",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Frontbook"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-10-12T04:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 2.4718,
+              "maximumBalance": null,
+              "minimumBalance": 1,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "1998-01-01",
+        "apyTierType": "termBased",
+        "productCode": "3500",
+        "productName": "CD",
+        "productType": "Normal",
+        "productGroup": "CD",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "CD",
+        "productClassCode": "DP",
+        "productShortName": "CD",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "CD",
+        "productTypeDescription": "Certificate of Deposit",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Frontbook"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2024-01-17T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": 6,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": 9,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": 12,
+              "margin": null,
+              "interest": 4.8889,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 5
+            },
+            {
+              "term": 18,
+              "margin": null,
+              "interest": 4.6017,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.7
+            },
+            {
+              "term": 24,
+              "margin": null,
+              "interest": 4.2175,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.3
+            },
+            {
+              "term": 30,
+              "margin": null,
+              "interest": 4.0249,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.1
+            },
+            {
+              "term": 36,
+              "margin": null,
+              "interest": 4.0249,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.1
+            },
+            {
+              "term": 48,
+              "margin": null,
+              "interest": 3.9767,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.05
+            },
+            {
+              "term": 60,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "1841-01-01",
+        "apyTierType": "simple",
+        "productCode": "3800",
+        "productName": "360 Performance Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "PSA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "360 Performance Savings",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Frontbook"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-12-06T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": 4999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 5000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": 24999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 25000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": 99999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.2656,
+              "maximumBalance": null,
+              "minimumBalance": 100000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "2023-03-22",
+        "apyTierType": "simple",
+        "productCode": "3820",
+        "productName": "Preferred Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "2023-03-22",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "PrS",
+        "backbookStartDate": null,
+        "frontbookStartDate": null,
+        "productDescription": "Preferred Savings",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Pilot"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-06-23T04:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": 4999.99,
+              "minimumBalance": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 5000,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": 24999.99,
+              "minimumBalance": 10000,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 25000,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": 99999.99,
+              "minimumBalance": 50000,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 4.0731,
+              "location": null,
+              "maximumBalance": null,
+              "minimumBalance": 100000,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "2023-12-01",
+        "apyTierType": "simple",
+        "productCode": "3830",
+        "productName": "Select Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": null,
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "TS1",
+        "backbookStartDate": null,
+        "frontbookStartDate": null,
+        "productDescription": "Select Savings",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Planned"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-12-07T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "Individual",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": 4.3,
+            "toApyRate": 2,
+            "maxBalance": 5000000
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 4.2175,
+              "maximumBalance": 175,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.3
+            },
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 1.9819,
+              "maximumBalance": null,
+              "minimumBalance": 175.01,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 2
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2023-12-07T05:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "Joint",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": 4.3,
+            "toApyRate": 2,
+            "maxBalance": 5000000
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 4.2175,
+              "maximumBalance": 175,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.3
+            },
+            {
+              "term": null,
+              "margin": 0,
+              "interest": 1.9819,
+              "maximumBalance": null,
+              "minimumBalance": 175.01,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "1841-01-01",
+        "apyTierType": "tiered",
+        "productCode": "4000",
+        "productName": "360 Checkings",
+        "productType": "Normal",
+        "productGroup": "DDA",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "DDA",
+        "productClassCode": "DP",
+        "productShortName": "DDA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "360 Checking",
+        "productTypeDescription": "Checking",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Frontbook"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 24999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 25000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 99999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": null,
+              "minimumBalance": 100000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "endDate": "",
+        "beginDate": "1998-01-01",
+        "apyTierType": "simple",
+        "productCode": "4300",
+        "productName": "MONEY",
+        "productType": "Normal",
+        "productGroup": "DDA",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "DDA",
+        "productClassCode": "DP",
+        "productShortName": "MDA",
+        "backbookStartDate": null,
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "MONEY",
+        "productTypeDescription": "Checking",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "productStatus": "Frontbook"
+      },
+      "rates": [
+        {
+          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
