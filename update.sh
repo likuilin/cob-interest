@@ -8,7 +8,7 @@ cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")"
 curl -s 'https://api.capitalone.com/deposits/products/~/search' \
   -H 'Accept: application/json;v=4' \
   -H 'Content-Type: application/json' \
-  --data-raw '{"include":["RATES"],"isRenewableRate":true}' | jq > current.json
+  --data-raw '{"include":["RATES"],"isRenewableRate":true}' | jq 'del(.lastCachedAt)' > current.json
 
 git add current.json &&
   GIT_AUTHOR_NAME="auto" \
