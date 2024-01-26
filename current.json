@@ -1,4 +1,4 @@
 {
-  "code": 101999,
-  "description": "Gateway Timeout. Timeout while reading the response from the backend server"
+  "description": "Gateway Timeout. Timeout while reading the response from the backend server",
+  "code": 101999
 }
