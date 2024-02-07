@@ -426,7 +426,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2023-12-07T05:00:00.000Z",
+          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "Individual",
           "rateStatus": "Active",
@@ -459,7 +459,7 @@
           ]
         },
         {
-          "rateEffectiveDate": "2023-12-07T05:00:00.000Z",
+          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "Joint",
           "rateStatus": "Active",
@@ -473,7 +473,7 @@
               "term": null,
               "margin": 0,
               "interest": 4.2175,
-              "maximumBalance": 175,
+              "maximumBalance": 350,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
@@ -484,7 +484,7 @@
               "margin": 0,
               "interest": 1.9819,
               "maximumBalance": null,
-              "minimumBalance": 175.01,
+              "minimumBalance": 350.01,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
               "annualizedPercentageYield": 2
