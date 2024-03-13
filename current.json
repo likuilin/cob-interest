@@ -87,7 +87,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2024-02-27T05:00:00.000Z",
+          "rateEffectiveDate": "2024-03-13T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -113,34 +113,46 @@
               "annualizedPercentageYield": 4.35
             },
             {
-              "term": 12,
+              "term": 10,
               "margin": null,
-              "interest": 4.8889,
+              "interest": 4.9845,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 5
+              "annualizedPercentageYield": 5.1,
+              "isPromo": false,
+              "promoEndDate": "2024-03-13T04:00:00.000Z"
+            },
+            {
+              "term": 12,
+              "margin": null,
+              "interest": 4.7933,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.9
             },
             {
               "term": 18,
               "margin": null,
-              "interest": 4.6017,
+              "interest": 4.4098,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.7
+              "annualizedPercentageYield": 4.5
             },
             {
               "term": 24,
               "margin": null,
-              "interest": 4.2175,
+              "interest": 4.1213,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.3
+              "annualizedPercentageYield": 4.2
             },
             {
               "term": 30,
