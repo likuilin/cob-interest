@@ -122,8 +122,7 @@
               "annualizedPercentageRate": 0,
               "annualizedPercentageYield": 5.1,
               "isPromo": false,
-              "promoEndDate": "2024-03-13T04:00:00.000Z",
-              "specialTermType": "Frontbook"
+              "promoEndDate": "2024-03-13T04:00:00.000Z"
             },
             {
               "term": 12,
