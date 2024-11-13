@@ -89,7 +89,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2024-10-18T04:00:00.000Z",
+          "rateEffectiveDate": "2024-11-13T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -97,32 +97,32 @@
             {
               "term": 6,
               "margin": null,
-              "interest": 4.1213,
+              "interest": 3.9285,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.2
+              "annualizedPercentageYield": 4
             },
             {
               "term": 9,
               "margin": null,
-              "interest": 4.1213,
+              "interest": 3.9285,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.2
+              "annualizedPercentageYield": 4
             },
             {
               "term": 11,
               "margin": null,
-              "interest": 4.4098,
+              "interest": 3.9285,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.5,
+              "annualizedPercentageYield": 4,
               "isPromo": false,
               "promoEndDate": "2024-09-10T04:00:00.000Z",
               "specialTermType": "Frontbook"
@@ -130,12 +130,12 @@
             {
               "term": 12,
               "margin": null,
-              "interest": 4.1213,
+              "interest": 4.0249,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.2
+              "annualizedPercentageYield": 4.1
             },
             {
               "term": 18,
