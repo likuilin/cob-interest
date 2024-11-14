@@ -45,7 +45,7 @@
               "margin": null,
               "interest": 2.4718,
               "maximumBalance": null,
-              "minimumBalance": 1,
+              "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
               "annualizedPercentageYield": 2.5
