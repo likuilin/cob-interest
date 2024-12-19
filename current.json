@@ -89,7 +89,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2024-11-21T05:00:00.000Z",
+          "rateEffectiveDate": "2024-12-19T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -97,32 +97,32 @@
             {
               "term": 6,
               "margin": null,
-              "interest": 3.832,
+              "interest": 3.7354,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.9
+              "annualizedPercentageYield": 3.8
             },
             {
               "term": 9,
               "margin": null,
-              "interest": 3.832,
+              "interest": 3.7354,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.9
+              "annualizedPercentageYield": 3.8
             },
             {
               "term": 11,
               "margin": null,
-              "interest": 3.832,
+              "interest": 3.7354,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.9,
+              "annualizedPercentageYield": 3.8,
               "isPromo": false,
               "promoEndDate": "2024-09-10T04:00:00.000Z",
               "specialTermType": "Frontbook"
@@ -140,52 +140,52 @@
             {
               "term": 18,
               "margin": null,
-              "interest": 3.7354,
+              "interest": 3.6387,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.8
+              "annualizedPercentageYield": 3.7
             },
             {
               "term": 24,
               "margin": null,
-              "interest": 3.5419,
+              "interest": 3.4451,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.5
             },
             {
               "term": 30,
               "margin": null,
-              "interest": 3.5419,
+              "interest": 3.4451,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.5
             },
             {
               "term": 36,
               "margin": null,
-              "interest": 3.5419,
+              "interest": 3.4451,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.5
             },
             {
               "term": 48,
               "margin": null,
-              "interest": 3.4935,
+              "interest": 3.4451,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.55
+              "annualizedPercentageYield": 3.5
             },
             {
               "term": 60,
