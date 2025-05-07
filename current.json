@@ -3,7 +3,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook: Online & Branches",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "1998-01-01",
         "apyTierType": "simple",
@@ -57,7 +57,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook: Online & Branches",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "1998-01-01",
         "apyTierType": "termBased",
@@ -191,7 +191,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook: Online & Branches",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "1841-01-01",
         "apyTierType": "simple",
@@ -295,7 +295,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "2023-03-22",
         "apyTierType": "simple",
@@ -393,7 +393,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "2023-12-01",
         "apyTierType": "simple",
@@ -495,7 +495,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook: Online & Branches",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "1841-01-01",
         "apyTierType": "tiered",
@@ -589,7 +589,7 @@
     {
       "productDefinition": {
         "channel": "Frontbook: Online & Branches",
-        "endDate": "",
+        "endDate": null,
         "platform": "Profile",
         "beginDate": "1998-01-01",
         "apyTierType": "simple",
