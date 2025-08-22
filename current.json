@@ -31,14 +31,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2023-10-12T04:00:00.000Z",
+          "rateEffectiveDate": "2023-10-12T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -48,11 +56,38 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2.5
+              "annualizedPercentageYield": 2.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
-      ]
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": null,
+        "earlyPaycheckUrl": null,
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-kids-savings-account/#privacy-policy",
+        "billPayFeatureUrl": null,
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-kids-savings-account/#kids-savings-disclosure",
+        "overdraftOptionsUrl": null,
+        "overdraftServicesUrl": null,
+        "taxPayerDisclosureUrl": "https://apply.capitalone.com/terminology.html#itin",
+        "termsAndConditionsUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-kids-savings-account/#account-terms-and-conditions",
+        "usPersonsDisclosureUrl": "https://apply.capitalone.com/terminology.html#us-persons",
+        "keyServicesAndChargesUrl": null,
+        "wireTransferAgreementUrl": null,
+        "personalDataDisclosureUrl": "https://www.capitalone.com/bank/disclosures/personal-data/",
+        "factaReportingDisclosureUrl": "https://apply.capitalone.com/terminology.html#fatca",
+        "depositAvailabilityDisclosureUrl": null,
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-kids-savings-account/",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-kids-savings-account/#electronic-fund-transfer-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
     },
     {
       "productDefinition": {
@@ -85,14 +120,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2025-07-22T04:00:00.000Z",
+          "rateEffectiveDate": "2025-07-22T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": 6,
@@ -102,7 +145,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.2
+              "annualizedPercentageYield": 4.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 9,
@@ -112,7 +158,36 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 10,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": false,
+              "promoEndDate": "2024-03-13T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 11,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": false,
+              "promoEndDate": "2024-09-10T04:00:00Z",
+              "specialTermType": "BackbookSelf"
             },
             {
               "term": 12,
@@ -122,7 +197,23 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4
+              "annualizedPercentageYield": 4,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 14,
+              "margin": null,
+              "interest": 4.1213,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.2,
+              "isPromo": true,
+              "promoEndDate": null,
+              "specialTermType": "BackbookAll"
             },
             {
               "term": 18,
@@ -132,7 +223,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.8
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 24,
@@ -142,7 +236,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.8
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 30,
@@ -152,7 +249,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 36,
@@ -162,7 +262,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 48,
@@ -172,7 +275,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 60,
@@ -182,11 +288,270 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.75
+              "annualizedPercentageYield": 3.75,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
-      ]
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": null,
+        "earlyPaycheckUrl": null,
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#privacy-policy",
+        "billPayFeatureUrl": null,
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#certificate-of-deposit-disclosure",
+        "overdraftOptionsUrl": null,
+        "overdraftServicesUrl": null,
+        "taxPayerDisclosureUrl": "https://apply.capitalone.com/terminology.html#itin",
+        "termsAndConditionsUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#account-terms-and-conditions",
+        "usPersonsDisclosureUrl": "https://apply.capitalone.com/terminology.html#us-persons",
+        "keyServicesAndChargesUrl": null,
+        "wireTransferAgreementUrl": null,
+        "personalDataDisclosureUrl": "https://www.capitalone.com/bank/disclosures/personal-data/",
+        "factaReportingDisclosureUrl": "https://apply.capitalone.com/terminology.html#fatca",
+        "depositAvailabilityDisclosureUrl": null,
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/cds/online-cds/disclosures/#electronic-fund-transfers-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
+    },
+    {
+      "productDefinition": {
+        "channel": "Frontbook: Online & Branches",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1998-01-01",
+        "apyTierType": "termBased",
+        "productCode": "3500",
+        "productName": "CD",
+        "productType": "Normal",
+        "productGroup": "CD",
+        "productLineId": "fd31a202-0c41-4381-a966-e459de48af1e",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "CD",
+        "productClassCode": "DP",
+        "productShortName": "CD",
+        "backbookStartDate": null,
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "CD",
+        "productDescriptionLong": "Earn a guaranteed rate with no market risk",
+        "productTypeDescription": "Certificate of Deposit",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Frontbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2024-12-19T05:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": 6,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 9,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 10,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": false,
+              "promoEndDate": "2024-03-13T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 11,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": false,
+              "promoEndDate": "2024-09-10T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 12,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 14,
+              "margin": null,
+              "interest": 4.0249,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.1,
+              "isPromo": true,
+              "promoEndDate": null,
+              "specialTermType": "BackbookAll"
+            },
+            {
+              "term": 18,
+              "margin": null,
+              "interest": 3.6387,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.7,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 24,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 30,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 36,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 48,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 60,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": null,
+        "earlyPaycheckUrl": null,
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#privacy-policy",
+        "billPayFeatureUrl": null,
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#certificate-of-deposit-disclosure",
+        "overdraftOptionsUrl": null,
+        "overdraftServicesUrl": null,
+        "taxPayerDisclosureUrl": "https://apply.capitalone.com/terminology.html#itin",
+        "termsAndConditionsUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds/#account-terms-and-conditions",
+        "usPersonsDisclosureUrl": "https://apply.capitalone.com/terminology.html#us-persons",
+        "keyServicesAndChargesUrl": null,
+        "wireTransferAgreementUrl": null,
+        "personalDataDisclosureUrl": "https://www.capitalone.com/bank/disclosures/personal-data/",
+        "factaReportingDisclosureUrl": "https://apply.capitalone.com/terminology.html#fatca",
+        "depositAvailabilityDisclosureUrl": null,
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/cds/online-cds",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/cds/online-cds/disclosures/#electronic-fund-transfers-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
     },
     {
       "productDefinition": {
@@ -219,14 +584,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2025-06-26T04:00:00.000Z",
+          "rateEffectiveDate": "2025-06-26T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -236,7 +609,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -246,7 +622,10 @@
               "minimumBalance": 5000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -256,7 +635,10 @@
               "minimumBalance": 10000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -266,7 +648,10 @@
               "minimumBalance": 25000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -276,7 +661,10 @@
               "minimumBalance": 50000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -286,211 +674,38 @@
               "minimumBalance": 100000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
-      ]
-    },
-    {
-      "productDefinition": {
-        "channel": "Frontbook",
-        "endDate": null,
-        "platform": "Profile",
-        "beginDate": "2023-03-22",
-        "apyTierType": "simple",
-        "productCode": "3820",
-        "productName": "Preferred Savings",
-        "productType": "Normal",
-        "productGroup": "SAV",
-        "productLineId": "8b015e4e-d6fa-4c08-ac85-41b5c5b1df96",
-        "lineOfBusiness": "Consumer Account",
-        "pilotStartDate": "2023-03-22",
-        "productTypeCode": "SAV",
-        "productClassCode": "DP",
-        "productShortName": "PrS",
-        "backbookStartDate": null,
-        "servicingPlatform": "EASE",
-        "frontbookStartDate": null,
-        "productDescription": "Preferred Savings",
-        "productDescriptionLong": "",
-        "productTypeDescription": "Savings",
-        "productClassDescription": "Deposit",
-        "ratesPrecision": {
-          "margin": 2,
-          "interest": 4,
-          "dailyPercentageRate": 5,
-          "annualizedPercentageRate": 2,
-          "annualizedPercentageYield": 2
-        },
-        "productStatus": "Pilot"
-      },
-      "rates": [
-        {
-          "rateEffectiveDate": "2023-06-23T04:00:00.000Z",
-          "rateType": "Standard Rate",
-          "region": "NA",
-          "rateStatus": "Active",
-          "rateTiers": [
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": 4999.99,
-              "minimumBalance": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            },
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": 9999.99,
-              "minimumBalance": 5000,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            },
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": 24999.99,
-              "minimumBalance": 10000,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            },
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": 49999.99,
-              "minimumBalance": 25000,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            },
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": 99999.99,
-              "minimumBalance": 50000,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            },
-            {
-              "term": null,
-              "margin": null,
-              "interest": 4.0731,
-              "maximumBalance": null,
-              "minimumBalance": 100000,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "productDefinition": {
-        "channel": "Frontbook",
-        "endDate": null,
-        "platform": "Profile",
-        "beginDate": "2023-12-01",
-        "apyTierType": "simple",
-        "productCode": "3830",
-        "productName": "Select Savings",
-        "productType": "Normal",
-        "productGroup": "SAV",
-        "productLineId": "6463e6d1-37a3-4e7c-b3b3-a4f7045e1be4",
-        "lineOfBusiness": "Consumer Account",
-        "pilotStartDate": null,
-        "productTypeCode": "SAV",
-        "productClassCode": "DP",
-        "productShortName": "TS1",
-        "backbookStartDate": null,
-        "servicingPlatform": "EASE",
-        "frontbookStartDate": null,
-        "productDescription": "Select Savings",
-        "productDescriptionLong": "",
-        "productTypeDescription": "Savings",
-        "productClassDescription": "Deposit",
-        "ratesPrecision": {
-          "margin": 2,
-          "interest": 4,
-          "dailyPercentageRate": 5,
-          "annualizedPercentageRate": 2,
-          "annualizedPercentageYield": 2
-        },
-        "productStatus": "Planned"
-      },
-      "rates": [
-        {
-          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
-          "rateType": "Standard Rate",
-          "region": "Individual",
-          "rateStatus": "Active",
-          "blendedApyRange": {
-            "fromApyRate": 4.3,
-            "toApyRate": 2,
-            "maxBalance": 5000000
-          },
-          "rateTiers": [
-            {
-              "term": null,
-              "margin": 0,
-              "interest": 4.2175,
-              "maximumBalance": 175,
-              "minimumBalance": 0,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.3
-            },
-            {
-              "term": null,
-              "margin": 0,
-              "interest": 1.9819,
-              "maximumBalance": null,
-              "minimumBalance": 175.01,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2
-            }
-          ]
-        },
-        {
-          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
-          "rateType": "Standard Rate",
-          "region": "Joint",
-          "rateStatus": "Active",
-          "blendedApyRange": {
-            "fromApyRate": 4.3,
-            "toApyRate": 2,
-            "maxBalance": 5000000
-          },
-          "rateTiers": [
-            {
-              "term": null,
-              "margin": 0,
-              "interest": 4.2175,
-              "maximumBalance": 350,
-              "minimumBalance": 0,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.3
-            },
-            {
-              "term": null,
-              "margin": 0,
-              "interest": 1.9819,
-              "maximumBalance": null,
-              "minimumBalance": 350.01,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2
-            }
-          ]
-        }
-      ]
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": null,
+        "earlyPaycheckUrl": null,
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/#privacy-policy",
+        "billPayFeatureUrl": null,
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/#360-performance-savings-disclosure",
+        "overdraftOptionsUrl": null,
+        "overdraftServicesUrl": null,
+        "taxPayerDisclosureUrl": "https://apply.capitalone.com/terminology.html#itin",
+        "termsAndConditionsUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/#account-terms-and-conditions",
+        "usPersonsDisclosureUrl": "https://apply.capitalone.com/terminology.html#us-persons",
+        "keyServicesAndChargesUrl": null,
+        "wireTransferAgreementUrl": "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/disclosures/#wire-transfer-agreement",
+        "personalDataDisclosureUrl": "https://www.capitalone.com/bank/disclosures/personal-data/",
+        "factaReportingDisclosureUrl": "https://apply.capitalone.com/terminology.html#fatca",
+        "depositAvailabilityDisclosureUrl": null,
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/disclosures/savings-accounts/online-performance-savings-account/#electronic-fund-transfer-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
     },
     {
       "productDefinition": {
@@ -523,14 +738,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -540,7 +763,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -550,7 +776,10 @@
               "minimumBalance": 10000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -560,7 +789,10 @@
               "minimumBalance": 25000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -570,7 +802,10 @@
               "minimumBalance": 50000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -580,11 +815,38 @@
               "minimumBalance": 100000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
-      ]
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": "https://www.capitalone.com/bank/add-cash-in-store/",
+        "earlyPaycheckUrl": "https://www.capitalone.com/bank/early-paycheck/",
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#privacy-policy",
+        "billPayFeatureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#bill-pay-feature",
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#360-checking-disclosure",
+        "overdraftOptionsUrl": "https://www.capitalone.com/bank/overdraft-options/",
+        "overdraftServicesUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#overdraft-services",
+        "taxPayerDisclosureUrl": "https://apply.capitalone.com/terminology.html#itin",
+        "termsAndConditionsUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#360-checking-agreement",
+        "usPersonsDisclosureUrl": "https://apply.capitalone.com/terminology.html#us-persons",
+        "keyServicesAndChargesUrl": "https://ecm.capitalone.com/WCM/bank/pdfs/360-checking-pew.pdf",
+        "wireTransferAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#wire-transfer-agreement",
+        "personalDataDisclosureUrl": "https://www.capitalone.com/bank/disclosures/personal-data/",
+        "factaReportingDisclosureUrl": "https://apply.capitalone.com/terminology.html#fatca",
+        "depositAvailabilityDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#deposit-availability-disclosure",
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/#electronic-fund-transfer-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
     },
     {
       "productDefinition": {
@@ -617,14 +879,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -634,11 +904,38 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
-      ]
+      ],
+      "features": null,
+      "disclosures": {
+        "addingCashUrl": null,
+        "earlyPaycheckUrl": null,
+        "privacyPolicyUrl": "https://www.capitalone.com/bank/checking-accounts/teen-checking-account/disclosures/#privacy-policy",
+        "billPayFeatureUrl": null,
+        "fdicDisclosureURL": "https://www.capitalone.com/bank/fdic/",
+        "readDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/teen-checking-account/#money-disclosure",
+        "overdraftOptionsUrl": null,
+        "overdraftServicesUrl": null,
+        "taxPayerDisclosureUrl": null,
+        "termsAndConditionsUrl": null,
+        "usPersonsDisclosureUrl": null,
+        "keyServicesAndChargesUrl": null,
+        "wireTransferAgreementUrl": null,
+        "personalDataDisclosureUrl": " https://www.capitalone.com/bank/personal-data/disclosures/",
+        "factaReportingDisclosureUrl": null,
+        "depositAvailabilityDisclosureUrl": null,
+        "productDisclosureUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/teen-checking-account/",
+        "paperlessAgreementUrl": "https://www.capitalone.com/bank/disclosures/checking-accounts/online-checking-account/eddn/",
+        "electronicFundTransferDisclosureUrl": "https://www.capitalone.com/bank/checking-accounts/teen-checking-account/disclosures/#electronic-fund-transfer-disclosure",
+        "fraudProtectionAgreementUrl": "https://www.capitalone.com/terms-personal-data",
+        "electronicDeliveryDisclosureNoticeUrl": "https://www.capitalone.com/bank/eddn/disclosures/"
+      }
     }
   ]
 }
