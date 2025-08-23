@@ -10,6 +10,8 @@ curl -s 'https://api.capitalone.com/deposits/products/~/search' \
   -H 'Content-Type: application/json' \
   --data-raw '{"include":["RATES"],"isRenewableRate":true}' | jq 'del(.lastCachedAt)' > current.json
 
+! cat current.json | grep "Internal Server Error"
+
 git add current.json &&
   GIT_AUTHOR_NAME="auto" \
   GIT_AUTHOR_EMAIL="" \
