@@ -2,6 +2,71 @@
   "products": [
     {
       "productDefinition": {
+        "channel": "Backbook Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1998-01-01",
+        "apyTierType": "simple",
+        "productCode": "3000",
+        "productName": "360 Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "productLineId": "6385f83c-cce1-499d-a1c4-e0ee6e90d38a",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "D",
+        "productShortName": "SAV",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "360 Savings",
+        "productDescriptionLong": "Mass market savings product for online/mobile, cafe, and branch originations. Discontinued in Sep 2019.",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2025-06-18T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
         "channel": "Frontbook: Online & Branches",
         "endDate": null,
         "platform": "Profile",
@@ -31,14 +96,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2023-10-12T04:00:00.000Z",
+          "rateEffectiveDate": "2023-10-12T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -48,7 +121,686 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2.5
+              "annualizedPercentageYield": 2.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1998-01-01",
+        "apyTierType": "simple",
+        "productCode": "3300",
+        "productName": "360 Money Market",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "productLineId": "49c2cb84-e552-4786-8e1e-8412ae77e0f4",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "MMA",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "360 Money Market",
+        "productDescriptionLong": "Upmarket savings product for online/mobile, cafe, and online originations. Discontinued in Sep 2019.",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2025-06-18T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": 24999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 25000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": 99999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.9954,
+              "maximumBalance": null,
+              "minimumBalance": 100000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook: Migration Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1841-01-01",
+        "apyTierType": "simple",
+        "productCode": "3400",
+        "productName": "Confidence Savings",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "productLineId": "ef271399-027f-4a7a-89d9-8fbb7c47eae4",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "CSA",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "Confidence Savings",
+        "productDescriptionLong": "Mass market savings product for account migration to Profile",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Default",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Texas",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Louisiana",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Mid Atlantic",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Austin TX",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "Metro NY and LI",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NJ North NY",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        },
+        {
+          "rateEffectiveDate": "2020-06-11T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NorthEast",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1998,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -85,14 +837,230 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2025-08-26T04:00:00.000Z",
+          "rateEffectiveDate": "2024-12-19T05:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": 6,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 9,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 10,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": false,
+              "promoEndDate": "2024-03-13T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 11,
+              "margin": null,
+              "interest": 3.7354,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.8,
+              "isPromo": false,
+              "promoEndDate": "2024-09-10T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 12,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 14,
+              "margin": null,
+              "interest": 4.0249,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.1,
+              "isPromo": true,
+              "promoEndDate": null,
+              "specialTermType": "BackbookAll"
+            },
+            {
+              "term": 18,
+              "margin": null,
+              "interest": 3.6387,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.7,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 24,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 30,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 36,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 48,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 60,
+              "margin": null,
+              "interest": 3.4451,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "channel": "Frontbook: Online & Branches",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1998-01-01",
+        "apyTierType": "termBased",
+        "productCode": "3500",
+        "productName": "CD",
+        "productType": "Normal",
+        "productGroup": "CD",
+        "productLineId": "fd31a202-0c41-4381-a966-e459de48af1e",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "CD",
+        "productClassCode": "DP",
+        "productShortName": "CD",
+        "backbookStartDate": null,
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "CD",
+        "productDescriptionLong": "Earn a guaranteed rate with no market risk",
+        "productTypeDescription": "Certificate of Deposit",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Frontbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2025-08-26T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": 6,
@@ -102,7 +1070,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 9,
@@ -112,7 +1083,36 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 10,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": false,
+              "promoEndDate": "2024-03-13T04:00:00Z",
+              "specialTermType": "BackbookSelf"
+            },
+            {
+              "term": 11,
+              "margin": null,
+              "interest": 3.9285,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4,
+              "isPromo": false,
+              "promoEndDate": "2024-09-10T04:00:00Z",
+              "specialTermType": "BackbookSelf"
             },
             {
               "term": 12,
@@ -122,7 +1122,23 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.2
+              "annualizedPercentageYield": 4.2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": 14,
+              "margin": null,
+              "interest": 4.1213,
+              "maximumBalance": null,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 4.2,
+              "isPromo": true,
+              "promoEndDate": null,
+              "specialTermType": "BackbookAll"
             },
             {
               "term": 18,
@@ -132,7 +1148,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.8
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 24,
@@ -142,7 +1161,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.8
+              "annualizedPercentageYield": 3.8,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 30,
@@ -152,7 +1174,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 36,
@@ -162,7 +1187,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 48,
@@ -172,7 +1200,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 3.6,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": 60,
@@ -182,7 +1213,114 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.75
+              "annualizedPercentageYield": 3.75,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook: Migration Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1841-01-01",
+        "apyTierType": "simple",
+        "productCode": "3700",
+        "productName": "Savings Now",
+        "productType": "Normal",
+        "productGroup": "SAV",
+        "productLineId": "826dfe4d-06b4-444f-a23b-c02b6a23fe4e",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "SAV",
+        "productClassCode": "DP",
+        "productShortName": "SVN",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "Savings Now",
+        "productDescriptionLong": "Mass market savings product for account migration to Profile",
+        "productTypeDescription": "Savings",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2017-05-01T04:00:00Z",
+          "rateType": "Standard Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 9999.99,
+              "minimumBalance": 0,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 49999.99,
+              "minimumBalance": 10000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": 249999.99,
+              "minimumBalance": 50000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            },
+            {
+              "term": null,
+              "margin": null,
+              "interest": 0.1,
+              "maximumBalance": null,
+              "minimumBalance": 250000,
+              "dailyPercentageRate": 0,
+              "annualizedPercentageRate": 0,
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -219,14 +1357,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2025-06-26T04:00:00.000Z",
+          "rateEffectiveDate": "2025-06-26T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -236,7 +1382,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -246,7 +1395,10 @@
               "minimumBalance": 5000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -256,7 +1408,10 @@
               "minimumBalance": 10000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -266,7 +1421,10 @@
               "minimumBalance": 25000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -276,7 +1434,10 @@
               "minimumBalance": 50000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -286,7 +1447,10 @@
               "minimumBalance": 100000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 3.5,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -323,14 +1487,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Pilot"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2023-06-23T04:00:00.000Z",
+          "rateEffectiveDate": "2023-06-23T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -338,8 +1510,12 @@
               "interest": 4.0731,
               "maximumBalance": 4999.99,
               "minimumBalance": 0,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -347,8 +1523,12 @@
               "interest": 4.0731,
               "maximumBalance": 9999.99,
               "minimumBalance": 5000,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -356,8 +1536,12 @@
               "interest": 4.0731,
               "maximumBalance": 24999.99,
               "minimumBalance": 10000,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -365,8 +1549,12 @@
               "interest": 4.0731,
               "maximumBalance": 49999.99,
               "minimumBalance": 25000,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -374,8 +1562,12 @@
               "interest": 4.0731,
               "maximumBalance": 99999.99,
               "minimumBalance": 50000,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -383,8 +1575,12 @@
               "interest": 4.0731,
               "maximumBalance": null,
               "minimumBalance": 100000,
+              "dailyPercentageRate": null,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.15
+              "annualizedPercentageYield": 4.15,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -421,11 +1617,14 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Planned"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
+          "rateEffectiveDate": "2024-02-07T05:00:00Z",
           "rateType": "Standard Rate",
           "region": "Individual",
           "rateStatus": "Active",
@@ -443,7 +1642,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.3
+              "annualizedPercentageYield": 4.3,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -453,12 +1655,15 @@
               "minimumBalance": 175.01,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2
+              "annualizedPercentageYield": 2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         },
         {
-          "rateEffectiveDate": "2024-02-07T05:00:00.000Z",
+          "rateEffectiveDate": "2024-02-07T05:00:00Z",
           "rateType": "Standard Rate",
           "region": "Joint",
           "rateStatus": "Active",
@@ -476,7 +1681,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 4.3
+              "annualizedPercentageYield": 4.3,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -486,7 +1694,10 @@
               "minimumBalance": 350.01,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 2
+              "annualizedPercentageYield": 2,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -523,14 +1734,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -540,7 +1759,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -550,7 +1772,10 @@
               "minimumBalance": 10000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -560,7 +1785,10 @@
               "minimumBalance": 25000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -570,7 +1798,10 @@
               "minimumBalance": 50000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             },
             {
               "term": null,
@@ -580,7 +1811,10 @@
               "minimumBalance": 100000,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
@@ -617,14 +1851,22 @@
           "annualizedPercentageRate": 2,
           "annualizedPercentageYield": 2
         },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
         "productStatus": "Frontbook"
       },
+      "profileProductIdentifiers": null,
       "rates": [
         {
-          "rateEffectiveDate": "2020-05-22T04:00:00.000Z",
+          "rateEffectiveDate": "2020-05-22T04:00:00Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
           "rateTiers": [
             {
               "term": null,
@@ -634,7 +1876,151 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 0.1
+              "annualizedPercentageYield": 0.1,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook: Migration Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1841-01-01",
+        "apyTierType": "simple",
+        "productCode": "4600",
+        "productName": "Total Control Checking",
+        "productType": "Normal",
+        "productGroup": "DDA",
+        "productLineId": "366905e5-fc62-4833-8158-38ebc47af9de",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "DDA",
+        "productClassCode": "DP",
+        "productShortName": "TCC",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "Total Control Checking",
+        "productDescriptionLong": "Mass market checking product for Account Migration from Systematics to Profile",
+        "productTypeDescription": "Checking",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": []
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook: Migration Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "2016-04-01",
+        "apyTierType": "simple",
+        "productCode": "4700",
+        "productName": "Simply Checking",
+        "productType": "Normal",
+        "productGroup": "DDA",
+        "productLineId": "9944782d-7acb-4c41-9bed-1ab9af46c142",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "2016-04-01",
+        "productTypeCode": "DDA",
+        "productClassCode": "DP",
+        "productShortName": "SCA",
+        "backbookStartDate": "2016-04-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "2016-04-01",
+        "productDescription": "Simply Checking",
+        "productDescriptionLong": "Mass market checking product for Account Migration from Systematics to Profile",
+        "productTypeDescription": "Checking",
+        "productClassDescription": "Deposit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": []
+    },
+    {
+      "productDefinition": {
+        "channel": "Backbook: Migration Only",
+        "endDate": null,
+        "platform": "Profile",
+        "beginDate": "1998-01-01",
+        "apyTierType": "simple",
+        "productCode": "6600",
+        "productName": "Overdraft Line Of Credit",
+        "productType": "Normal",
+        "productGroup": "RC",
+        "productLineId": "1f50637b-44ec-4885-9665-543de937850c",
+        "lineOfBusiness": "Consumer Account",
+        "pilotStartDate": "1998-01-01",
+        "productTypeCode": "RC",
+        "productClassCode": "L",
+        "productShortName": "OLOC",
+        "backbookStartDate": "1998-01-01",
+        "servicingPlatform": "EASE",
+        "frontbookStartDate": "1998-01-01",
+        "productDescription": "Overdraft Line of Credit",
+        "productDescriptionLong": "Overdraft Line of Credit",
+        "productTypeDescription": "Overdraft Line Of Credit",
+        "productClassDescription": "Overdraft Line Of Credit",
+        "ratesPrecision": {
+          "margin": 2,
+          "interest": 4,
+          "dailyPercentageRate": 5,
+          "annualizedPercentageRate": 2,
+          "annualizedPercentageYield": 2
+        },
+        "eligibleConversionProductCodes": null,
+        "eligibleInternalTransfers": null,
+        "productStatus": "Backbook"
+      },
+      "profileProductIdentifiers": null,
+      "rates": [
+        {
+          "rateEffectiveDate": "2023-07-27T04:00:00Z",
+          "rateType": "OLOC Rate",
+          "region": "NA",
+          "rateStatus": "Active",
+          "blendedApyRange": {
+            "fromApyRate": null,
+            "toApyRate": null,
+            "maxBalance": null
+          },
+          "rateTiers": [
+            {
+              "term": null,
+              "margin": 8,
+              "interest": 8.5,
+              "maximumBalance": null,
+              "minimumBalance": null,
+              "dailyPercentageRate": 0.04521,
+              "annualizedPercentageRate": 16.5,
+              "annualizedPercentageYield": null,
+              "isPromo": null,
+              "promoEndDate": null,
+              "specialTermType": null
             }
           ]
         }
