@@ -89,7 +89,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2025-10-22T04:00:00.000Z",
+          "rateEffectiveDate": "2025-11-04T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -117,12 +117,12 @@
             {
               "term": 12,
               "margin": null,
-              "interest": 3.7837,
+              "interest": 3.9767,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.85
+              "annualizedPercentageYield": 4.05
             },
             {
               "term": 18,
