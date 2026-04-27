@@ -135,7 +135,10 @@
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.9
+              "annualizedPercentageYield": 3.9,
+              "isPromo": true,
+              "promoEndDate": null,
+              "specialTermType": "Frontbook"
             },
             {
               "term": 18,
