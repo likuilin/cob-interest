@@ -115,19 +115,6 @@
               "annualizedPercentageYield": 3.2
             },
             {
-              "term": 11,
-              "margin": null,
-              "interest": 3.6387,
-              "maximumBalance": null,
-              "minimumBalance": 0,
-              "dailyPercentageRate": 0,
-              "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.7,
-              "isPromo": false,
-              "promoEndDate": "2026-02-18T05:00:00.000Z",
-              "specialTermType": "Frontbook"
-            },
-            {
               "term": 12,
               "margin": null,
               "interest": 3.832,
