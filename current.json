@@ -89,7 +89,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2026-05-07T04:00:00.000Z",
+          "rateEffectiveDate": "2026-06-25T04:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -117,12 +117,12 @@
             {
               "term": 12,
               "margin": null,
-              "interest": 3.832,
+              "interest": 3.9285,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.9,
+              "annualizedPercentageYield": 4,
               "isPromo": true,
               "promoEndDate": null,
               "specialTermType": "Frontbook"
