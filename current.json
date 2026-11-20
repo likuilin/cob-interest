@@ -89,7 +89,7 @@
       },
       "rates": [
         {
-          "rateEffectiveDate": "2026-11-06T05:00:00.000Z",
+          "rateEffectiveDate": "2026-11-20T05:00:00.000Z",
           "rateType": "Standard Rate",
           "region": "NA",
           "rateStatus": "Active",
@@ -143,62 +143,62 @@
             {
               "term": 18,
               "margin": null,
-              "interest": 3.5419,
+              "interest": 4.4098,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 4.5
             },
             {
               "term": 24,
               "margin": null,
-              "interest": 3.4451,
+              "interest": 4.5058,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 4.6
             },
             {
               "term": 30,
               "margin": null,
-              "interest": 3.4451,
+              "interest": 4.5058,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 4.6
             },
             {
               "term": 36,
               "margin": null,
-              "interest": 3.4451,
+              "interest": 4.5058,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 4.6
             },
             {
               "term": 48,
               "margin": null,
-              "interest": 3.4451,
+              "interest": 4.5058,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.5
+              "annualizedPercentageYield": 4.6
             },
             {
               "term": 60,
               "margin": null,
-              "interest": 3.5419,
+              "interest": 4.6017,
               "maximumBalance": null,
               "minimumBalance": 0,
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
-              "annualizedPercentageYield": 3.6
+              "annualizedPercentageYield": 4.7
             }
           ]
         }
