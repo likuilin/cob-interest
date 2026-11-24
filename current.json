@@ -123,7 +123,7 @@
               "dailyPercentageRate": 0,
               "annualizedPercentageRate": 0,
               "annualizedPercentageYield": 4.25,
-              "isPromo": true,
+              "isPromo": false,
               "promoEndDate": "2026-11-24T05:00:00.000Z",
               "specialTermType": "Frontbook"
             },
